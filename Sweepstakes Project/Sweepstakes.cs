@@ -18,6 +18,9 @@ namespace Sweepstakes_Project
         public void RegisterContestant(Contestant contestantToAdd)
         {
             //add contestant to dictionary
+            List<Contestant> contestantToAdd = new List<Contestant>();
+            
+
         }
         public Contestant PickWinner()
         {
