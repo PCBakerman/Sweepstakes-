@@ -6,16 +6,21 @@ namespace Sweepstakes_Project
 {
     class MarketingFirm
     {
-
-
-        public void CreateContestant()
+        ISweepstakesManager _Manager;
+        public MarketingFirm(ISweepstakesManager manager)
         {
-            string firstName = Userinterface.GetUserPrompt("First name");
-            string firstName = Userinterface.GetUserPrompt("First name");
-            string firstName = Userinterface.GetUserPrompt("First name");
-            string firstName = Userinterface.GetUserPrompt("First name");
 
-            Contestant contestant = new Contestant(firstName);
+            _Manager = manager;
+
+        }
+
+        public void CreateSweepstake()
+        {
+            //grab a name from user to insert into sweepstakes
+            Sweepstakes sweepstakes = new Sweepstakes("Test");
+            _Manager.InsertSweepstakes(sweepstakes);
+
+
         }
     }
 }

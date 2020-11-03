@@ -6,7 +6,8 @@ using System.Text;
 namespace Sweepstakes_Project
 {
     public class Contestant
-           //Member Variables
+          
+        //Member Variables
     {
         public  string first;
         public string last;

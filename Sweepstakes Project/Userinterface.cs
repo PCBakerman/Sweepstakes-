@@ -8,11 +8,19 @@ namespace Sweepstakes_Project
     { 
     
     
+        public static void Display(string output)
+        {
+
+            Console.WriteLine(output);
+
+        }
         public static string GetUserPrompt(string output)
         {
-            Console.WriteLine(output);
-            string input = Console.ReadLine();
-            return input;
+            Display(output);
+            return Console.ReadLine();
+
+
+
         }
     
     }
