@@ -6,44 +6,40 @@ using System.Text;
 namespace Sweepstakes_Project
 {
     public class Simulation
-    {
+    { 
+        //Properties
+        public MarketingFirm MarketingFirm
+        {
+            get; set;
+        }
 
-        //public ISweepstakesManager Manager;
-        //public Simulation(SweepstakesManager sweepstakesManager)
-        //{
-        //    Manager = sweepstakesManager;
 
-        //}
-
-        public Simulation()
+    
+        public Simulation() //Contructor
         {
 
             
         }
-
-        public void 
-        {
-            //utilize factory pattern to instantiate either a stackmanager or queuemanager
-            //pass the created manager into a new marketing firm when we instantiate it
-            public void CreateMarketingFirmWithManager(string sweepstakes)
+        //Methods
+        public void CreateMarketingFirmWithManager()
+        { bool correctinput = false;
+            //Get userinput for managertype.
+            string input;
+            do
             {
-                switch (string Manager)
+                input = Userinterface.GetUserPrompt("PLease select Queue or Stack Manager. Type Q for Queue and type S for Stack.");
+                if (input.ToLower() == "s" || input.ToLower() == "q")
                 {
-                    case "SSSManager":
-                        return new Simulation();
-                    case "SSQManager":
-                        return new Simulation();
+                    correctinput = true;
 
-            }
-            public Item GetItemToPurchase(string item)
-            {
-                switch (item.ToLower())
+                }else
                 {
-                    case "lemon":
-                        return new Lemon();
-                    case "sugar":
-                        return new Sugar();
+                    Userinterface.Display("Incorrect inuput, please select S or Q.");
+
                 }
+
+            } while (!correctinput);
+            if (input.ToLower() == "s")
         }
-    }
+    } 
 }

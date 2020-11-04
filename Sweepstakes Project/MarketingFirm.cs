@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Sweepstakes_Project
 {
-    class MarketingFirm
+    public class MarketingFirm
     {
         ISweepstakesManager _Manager;
         public MarketingFirm(ISweepstakesManager manager)
