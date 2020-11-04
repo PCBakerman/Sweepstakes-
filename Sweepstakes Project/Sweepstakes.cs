@@ -49,6 +49,7 @@ namespace Sweepstakes_Project
             int num = random.Next(0, newKey.Count - 1);
             var SelectedKey = newKey[num];
             var ContestantWinner = contestants[SelectedKey];
+            return ContestantWinner;
         }
 
 
@@ -56,9 +57,10 @@ namespace Sweepstakes_Project
         {
             //consol write line to print contestant info
             //TODO: Use UserInterface class
-            Console.WriteLine(contestantToPrint.first);
-            Console.WriteLine(contestantToPrint.last);
-            Console.WriteLine(contestantToPrint.email);
+            Userinterface.Display("Contestant Info:");
+            Userinterface.Display(contestantToPrint.first);
+            Userinterface.Display(contestantToPrint.last);
+            Userinterface.Display(contestantToPrint.email);
 
         }
     }

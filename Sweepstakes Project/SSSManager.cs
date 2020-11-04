@@ -13,7 +13,12 @@ namespace Sweepstakes_Project
         }
         public Sweepstakes GetSweepstakes()
         {
-            return stack.Pop();
+            Sweepstakes sweepstakes;
+            if (stack.TryPop(out sweepstakes))
+            {
+                return sweepstakes;
+            }
+            return null;
         }
       
         public void InsertSweepstakes(Sweepstakes sweepstakes)

@@ -22,7 +22,14 @@ namespace Sweepstakes_Project
         }
         //Methods
         public void CreateMarketingFirmWithManager()
-        { bool correctinput = false;
+        {
+            //Declaring variable for manager
+            ISweepstakesManager sweepstakesManager;
+
+            //Intantiate sweepstakes factory.
+            ISweepstakesCreator sweepstakesCreator = new SweepstakesFactory();
+
+            bool correctinput = false;    
             //Get userinput for managertype.
             string input;
             do
@@ -39,7 +46,17 @@ namespace Sweepstakes_Project
                 }
 
             } while (!correctinput);
+            //Use userinput to determin what we pass to our factory
             if (input.ToLower() == "s")
+            {
+                sweepstakesManager = sweepstakesCreator.Create("sssmanager");
+            }
+            else
+            {
+                sweepstakesManager = sweepstakesCreator.Create("ssqmanager");
+            }
+            //Inject sweepstakes manager into marketing firm.
+            MarketingFirm = new MarketingFirm(sweepstakesManager);
         }
     } 
 }
