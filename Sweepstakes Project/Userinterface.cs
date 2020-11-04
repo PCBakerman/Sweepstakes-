@@ -32,7 +32,7 @@ namespace Sweepstakes_Project
                     vaildinput = true;
                 }
 
-            } while (vaildinput!);
+            } while (!vaildinput);
             return input;
         }
         public static int GetUserPromptNumber(string output)
@@ -53,7 +53,7 @@ namespace Sweepstakes_Project
                     vaildinput = false;
                 }
 
-            } while (vaildinput!);
+            } while (!vaildinput);
             return input;
         }
         public static Contestant GetContestantInfo()

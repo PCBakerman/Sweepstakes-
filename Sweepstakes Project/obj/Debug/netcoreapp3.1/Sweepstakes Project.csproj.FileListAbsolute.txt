@@ -1,0 +1,13 @@
+C:\Users\Patrick\Desktop\Coding Class Contents\Sweepstakes Project\Sweepstakes Project\bin\Debug\netcoreapp3.1\Sweepstakes Project.exe
+C:\Users\Patrick\Desktop\Coding Class Contents\Sweepstakes Project\Sweepstakes Project\bin\Debug\netcoreapp3.1\Sweepstakes Project.deps.json
+C:\Users\Patrick\Desktop\Coding Class Contents\Sweepstakes Project\Sweepstakes Project\bin\Debug\netcoreapp3.1\Sweepstakes Project.runtimeconfig.json
+C:\Users\Patrick\Desktop\Coding Class Contents\Sweepstakes Project\Sweepstakes Project\bin\Debug\netcoreapp3.1\Sweepstakes Project.runtimeconfig.dev.json
+C:\Users\Patrick\Desktop\Coding Class Contents\Sweepstakes Project\Sweepstakes Project\bin\Debug\netcoreapp3.1\Sweepstakes Project.dll
+C:\Users\Patrick\Desktop\Coding Class Contents\Sweepstakes Project\Sweepstakes Project\bin\Debug\netcoreapp3.1\Sweepstakes Project.pdb
+C:\Users\Patrick\Desktop\Coding Class Contents\Sweepstakes Project\Sweepstakes Project\obj\Debug\netcoreapp3.1\Sweepstakes Project.csprojAssemblyReference.cache
+C:\Users\Patrick\Desktop\Coding Class Contents\Sweepstakes Project\Sweepstakes Project\obj\Debug\netcoreapp3.1\Sweepstakes Project.AssemblyInfoInputs.cache
+C:\Users\Patrick\Desktop\Coding Class Contents\Sweepstakes Project\Sweepstakes Project\obj\Debug\netcoreapp3.1\Sweepstakes Project.AssemblyInfo.cs
+C:\Users\Patrick\Desktop\Coding Class Contents\Sweepstakes Project\Sweepstakes Project\obj\Debug\netcoreapp3.1\Sweepstakes Project.csproj.CoreCompileInputs.cache
+C:\Users\Patrick\Desktop\Coding Class Contents\Sweepstakes Project\Sweepstakes Project\obj\Debug\netcoreapp3.1\Sweepstakes Project.dll
+C:\Users\Patrick\Desktop\Coding Class Contents\Sweepstakes Project\Sweepstakes Project\obj\Debug\netcoreapp3.1\Sweepstakes Project.pdb
+C:\Users\Patrick\Desktop\Coding Class Contents\Sweepstakes Project\Sweepstakes Project\obj\Debug\netcoreapp3.1\Sweepstakes Project.genruntimeconfig.cache

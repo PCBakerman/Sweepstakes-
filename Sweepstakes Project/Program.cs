@@ -6,9 +6,13 @@ namespace Sweepstakes_Project
     {
         static void Main(string[] args)
         {
-            Contestant person1 = new Contestant();
-
-            person1.firstName = Userinterface.GetUserPrompt("Please enter your first name");
+            Simulation simulation = new Simulation();
+            simulation.CreateMarketingFirmWithManager();
+            simulation.MarketingFirm.CreateSweepstake();
+            Contestant contestant = Userinterface.GetContestantInfo();
+            Sweepstakes sweepstakes = new Sweepstakes("Pat");
+            sweepstakes.RegisterContestant(contestant);
+            sweepstakes.PrintContestInfo(sweepstakes.PickWinner());
         }
     }
 }
